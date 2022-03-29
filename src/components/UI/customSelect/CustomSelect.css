@@ -1,0 +1,68 @@
+.customBox {
+   margin-bottom: 30px;
+   text-transform: capitalize;
+}
+.languageOption {
+   text-transform: lowercase;
+}
+.languageOption::first-letter {
+   font-size: 200px;
+}
+
+.customSelect {
+   font-family: Open Sans, sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   text-align: center;
+   color: #222222;
+   display: block;
+   text-align: start;
+   padding-bottom: 10.6px;
+   text-transform: capitalize;
+}
+
+.selectted {
+   color: #222222;
+   padding: 10px 18px;
+   text-align: start;
+   border: 1px solid #c4c4c4;
+   appearance: none;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   background-image: url('../../../assets/png/arrow.png');
+   background-repeat: no-repeat;
+   background-position: calc(100% - 20px) center;
+   background-size: 20px;
+   outline: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+   background-color: #fafafa;
+   text-transform: capitalize;
+}
+.selectted.hasError {
+   border-color: red;
+}
+.selectted:invalid {
+   color: #c4c4c4;
+}
+
+.selectted:hover {
+   background-color: #ffffff;
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+}
+
+.input input:active {
+   background-color: #ffffff;
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+}
+.redStar {
+   color: red;
+   margin-left: 5px;
+}

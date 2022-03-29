@@ -1,0 +1,30 @@
+.contentContainer {
+   width: 1160px;
+   margin: 80px auto 400px auto;
+}
+
+.contentContainerHeader {
+   display: flex;
+   justify-content: space-between;
+   width: 1160px;
+   height: 40px;
+   align-items: center;
+   border-bottom: 4px solid #ff6232;
+   cursor: pointer;
+   background-color: #fafafa;
+   padding-bottom: 20px;
+}
+
+.numberOfBooks {
+   display: flex;
+   align-items: flex-end;
+   font-size: 18px;
+   color: #ff6232;
+}
+
+.content {
+   display: flex;
+   flex-wrap: wrap;
+   width: 1160px;
+   margin-top: 50px;
+}

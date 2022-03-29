@@ -1,0 +1,14 @@
+.genre {
+   font-size: 16px;
+   color: #969696;
+   cursor: pointer;
+}
+
+.genre:hover::before {
+   content: '――――――――― ';
+   color: #ffffff;
+}
+
+.genre:hover {
+   transition: 5s;
+}

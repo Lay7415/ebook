@@ -1,0 +1,70 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    color: #222222;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4;
+ }
+
+ .price {
+    flex-direction: column;
+ }
+
+ .bookprice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+ }
+
+ .slider {
+    margin-top: 36px;
+    height: 5px;
+    border-radius: 5px;
+    background: #ddd;
+    position: relative;
+ }
+
+ .rangein {
+    position: relative;
+ }
+
+ .rangein input {
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    height: 5px;
+    width: 100%;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+ }
+ 
+ input[type='range']::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    pointer-events: auto;
+    -webkit-appearance: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.11);
+    background-color: #ffff;
+    z-index: 2;
+ }
+ 
+ input[type='range']::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    pointer-events: auto;
+    border: none;
+    -moz-appearance: none;
+    background-color: tomato;
+ }
+
+ 
+.bookprice input {
+    width: 123px;
+    height: 37px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+ }

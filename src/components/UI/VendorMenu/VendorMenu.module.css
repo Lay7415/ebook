@@ -1,0 +1,62 @@
+.container {
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.craete {
+   width: 213px;
+   height: 42px;
+   display: flex;
+   align-items: center;
+}
+
+.icon {
+   display: flex;
+   margin-left: 16px;
+}
+
+.addBooksButton {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #ffffff;
+   background: #f34901;
+   display: flex;
+   align-items: center;
+   padding-right: 31px;
+   cursor: pointer;
+   border: none;
+}
+.plusforbtn {
+   margin: 15px 15px 15px;
+   margin-left: 29px;
+   cursor: pointer;
+}
+.addBooksButton:hover {
+   background: #e26834;
+}
+
+.succes {
+   display: flex;
+   flex-direction: column;
+}
+
+.succesIcon {
+   margin-left: 207px;
+   margin-right: 207px;
+   margin-top: 20px;
+}
+
+.succesMessage {
+   margin-left: 100px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 130%;
+   color: #000000;
+}

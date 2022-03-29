@@ -1,0 +1,14 @@
+.applicationsContainer {
+   margin-top: 50px;
+   margin-left: 30px;
+   width: 1130px;
+}
+
+.bookList {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.totalAmount {
+   color: #b5b5b5;
+}

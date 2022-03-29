@@ -1,0 +1,24 @@
+.bookslistbox {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1200px;
+}
+.notFoundBox {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.notFoundImage {
+   background-position: center;
+   display: block;
+   width: 80vw;
+   height: 100vh;
+   background-size: 100px;
+   background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}

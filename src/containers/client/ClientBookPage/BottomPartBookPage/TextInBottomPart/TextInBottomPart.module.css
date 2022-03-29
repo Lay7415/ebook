@@ -1,0 +1,22 @@
+.textAbout {
+    word-wrap: break-word;
+    height: 300px;
+}
+.textFragment {
+    word-wrap: break-word;
+    height: 770px;
+    overflow-y: scroll;
+}
+.textFragment::-webkit-scrollbar {
+    width: 4px;
+    height: auto;
+}
+.textFragment::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+.textFragment::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+}
+.textFragment::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

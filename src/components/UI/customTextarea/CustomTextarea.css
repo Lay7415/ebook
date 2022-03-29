@@ -1,0 +1,50 @@
+.customTextarea label {
+   padding-bottom: 12px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   display: block;
+}
+
+.textarea {
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   text-align: start;
+   color: #222222;
+   padding: 16px 15px 10px 16px;
+   height: 199px;
+   resize: none;
+   outline: none;
+}
+
+.textarea:invalid {
+   color: #c4c4c4;
+}
+.hasError {
+   border-color: red;
+}
+
+.letterCss {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: end;
+   color: #b5b5b5;
+   margin: 0;
+   padding-top: 8px;
+   padding-bottom: 26px;
+}
+
+.hasError {
+   border-color: red;
+}
+.redStar {
+   color: red;
+   margin-left: 5px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.deleteAccountBtn {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #f10000;
+   border: none;
+   background: none;
+   cursor: pointer;
+   margin-top: 54px;
+}
+.deleteAccountBtn:hover {
+   cursor: pointer;
+   color: #993a3a;
+}
+.vendorUpdateSaveBtn {
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: none;
+   padding: 10px 24px 10px 24px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #222222;
+}
+.vendorUpdateSaveBtn:hover {
+   background: black;
+   padding: 10px 24px 10px 24px;
+   color: #ffffff;
+}
+.vendorUpdateForm {
+   display: flex;
+   height: 750px;
+   margin-top: 55px;
+}
+.updateInputs input {
+   width: 514px;
+}
+.vendorUpdateFormFirstBox {
+   margin-right: 160px;
+   position: relative;
+}
+.vendorUpdateFormh1 {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #222222;
+   margin-bottom: 40px;
+}
+.forAbsoluteUpdate {
+   position: absolute;
+   top: 28px;
+   right: 20px;
+}
+.forAbsoluteUpdate2 {
+   position: absolute;
+   top: 120px;
+   right: 20px;
+}
+.forAbsoluteUpdate3 {
+   position: absolute;
+   right: 20px;
+   top: 213px;
+}
+.vendorUpdateFormSecondBox {
+   position: relative;
+}
+.passwordInputIcons {
+   width: 20px;
+}
+.passwordInputIcons2 {
+   width: 20px;
+}
+.absloluteForBtns {
+   position: relative;
+}
+.absloluteForButtons {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   bottom: 120px;
+}
+.getApiRequest {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #222222;
+   margin-bottom: 40px;
+}

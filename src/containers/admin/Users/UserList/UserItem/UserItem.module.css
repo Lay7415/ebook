@@ -1,0 +1,32 @@
+.mediumBox {
+    width: 170px;
+    text-align: start;
+    white-space: nowrap
+}
+
+.containerLiFor {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 510px;
+    color: #000000;
+    margin-right: 600px; 
+    padding-left: 10px;
+}
+
+.li::before {
+    content: counter(my-counter); 
+    counter-increment: my-counter; 
+    color: #000000; 
+    width: 20px;
+}
+
+.containerLiFor:hover {
+    background-color: #ff4d0017;
+}

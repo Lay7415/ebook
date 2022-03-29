@@ -1,0 +1,105 @@
+.viewingTheBestBooksSectionContainer {
+   padding: 150px 0px;
+}
+
+.sectionTopPart {
+   width: 1280px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.bookContent {
+   display: flex;
+   justify-content: space-between;
+   width: 1360px;
+   margin-left: 80px;
+}
+
+.bookDescription {
+   width: 500px;
+   height: 500px;
+   margin-right: 100px;
+}
+
+.bookTitle {
+   width: 285px;
+   height: 220px;
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   font-size: 56px;
+}
+
+.aboutBook {
+   width: 500px;
+   height: 100px;
+   word-wrap: break-word;
+   overflow: scroll;
+   overflow-x: hidden;
+   margin-bottom: 50px;
+}
+
+.aboutBook::-webkit-scrollbar {
+   width: 10px;
+   background-color: #f9f9fd;
+}
+
+.aboutBook::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background-color: #ff4c00;
+}
+
+.aboutBook::-webkit-scrollbar-track {
+   border-radius: 10px;
+   background-color: #f9f9fd;
+}
+
+.bottomPartAboutBook {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.price {
+   color: #ff4c00;
+}
+
+.books {
+   display: flex;
+   align-items: flex-end;
+   overflow: hidden;
+}
+
+.mainImage {
+   width: 300px;
+   height: 450px;
+   margin-right: 10px;
+}
+
+.image {
+   width: 220px;
+   height: 340px;
+   margin: 0px 10px;
+}
+
+.arrowButtonContainer {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 80px;
+}
+
+.arrowButtonLeft {
+   width: 60px;
+   height: 80px;
+   cursor: pointer;
+}
+
+.arrowButtonRight {
+   width: 60px;
+   height: 80px;
+   transform: scale(-1, 1);
+   margin-left: 40px;
+   cursor: pointer;
+}

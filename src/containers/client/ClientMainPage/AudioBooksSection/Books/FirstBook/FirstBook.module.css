@@ -1,0 +1,47 @@
+.firstAudioBookContainer {
+   width: 310px;
+   height: 420px;
+   margin-top: 400px;
+}
+
+.image {
+   width: 310px;
+   height: 310px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.bookName {
+   color: #222222;
+   font-weight: 600;
+   font-size: 20px;
+   width: 310px;
+   height: 25px;
+   margin: 6px 0px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+.author {
+   height: 20px;
+   margin: 0;
+}
+
+.otherInformations {
+   display: flex;
+   justify-content: space-between;
+   height: 20px;
+   align-items: center;
+   margin: 6px 0px;
+}
+
+.duration {
+   color: #8c8c8c;
+   margin: 0;
+}
+
+.price {
+   color: #222222;
+   font-weight: 600;
+}

@@ -1,0 +1,11 @@
+.containerForBriefInformation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 180px;
+}
+.smallContainerForBriefInformation {
+    width: 230px;
+    text-align: start;
+    line-height: 10px;
+}

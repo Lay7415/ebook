@@ -1,0 +1,6 @@
+.searchIconOrange > path {
+  fill: orange;
+}
+.searchIconGray > path {
+  fill: gray;
+}

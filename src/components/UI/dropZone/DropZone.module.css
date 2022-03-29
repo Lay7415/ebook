@@ -1,0 +1,57 @@
+.span {
+   color: #969696;
+   font-size: 14px;
+   line-height: 130%;
+   padding-left: 36px;
+   padding-right: 36px;
+   padding-bottom: 26px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+}
+.uploadedBook {
+   width: 235px;
+   height: 312px;
+}
+.changeBtn {
+   position: absolute;
+   top: 66%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 130%;
+   text-align: center;
+   border: none;
+   background: none;
+   cursor: pointer;
+   color: #ffffff;
+}
+.dropZoneBox {
+   cursor: pointer;
+   width: 235px;
+   height: 312px;
+   background-color: #ececec;
+   display: flex;
+}
+.uploadedDropZone {
+   width: 70px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 41px;
+}
+
+.dromImgBox {
+   width: 235px;
+   height: 312px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.changeBtn:hover {
+   text-decoration-line: underline;
+   color: #f34901;
+}

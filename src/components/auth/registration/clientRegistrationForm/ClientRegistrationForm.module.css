@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.subscribe {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.subscribe p {
+	font-style: bold;
+	font-weight: 400px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #777777;
+}
+
+.subscribeInput {
+	border: 1px solid #c4c4c4;
+	box-sizing: border-box;
+	width: 22px;
+	height: 20px;
+	margin-right: 12px;
+}
+
+.pngOfPassword {
+	position: relative;
+	float: right;
+	bottom: 39px;
+	left: 0;
+	width: 18px;
+	height: 15px;
+	padding-right: 18px;
+	cursor: pointer;
+	margin: 0;
+}
+
+.message {
+	color: red;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #f10000;
+    font-family: 'Nunito', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 420px;
+}

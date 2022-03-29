@@ -1,0 +1,29 @@
+.contentConatiner {
+   width: 440px;
+   height: 135px;
+}
+
+.bookName {
+   display: flex;
+   justify-content: center;
+   font-weight: 600;
+   font-size: 18px;
+   margin: 0;
+}
+
+.deleteMessage {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.containerForButtons {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.selectButton {
+   padding: 10px 24px;
+   margin-right: 32px;
+}

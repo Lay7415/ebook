@@ -1,0 +1,43 @@
+.bookDescription {
+   width: 365px;
+   height: 300px;
+   color: #d1d1d1;
+   margin-top: 150px;
+}
+
+.bookTitle {
+   font-size: 16px;
+   margin-bottom: 50px;
+}
+
+.aboutBook {
+   width: 365px;
+   height: 100px;
+   word-wrap: break-word;
+   overflow: scroll;
+   overflow-x: hidden;
+}
+
+.aboutBook::-webkit-scrollbar {
+   width: 10px;
+   background-color: #1c1c1c;
+}
+
+.aboutBook::-webkit-scrollbar-thumb {
+   background-color: #ff4c00;
+}
+
+.aboutBook::-webkit-scrollbar-track {
+   border-radius: 10px;
+   background-color: #1c1c1c;
+}
+
+.bottomPartAboutBook {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.price {
+   color: #ff4c00;
+}

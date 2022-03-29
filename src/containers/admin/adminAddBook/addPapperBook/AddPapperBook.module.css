@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.formControl {
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+.rightSection {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   padding-bottom: 30px;
+   height: 1160px;
+}
+
+.customTextarea {
+   width: 636px;
+   resize: none;
+}
+
+.leftSection {
+   display: flex;
+   padding-left: 42px;
+}
+
+.settingOfBook {
+   margin-right: 42px;
+}
+
+.settingOfBook .bestsellers {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+}
+
+.rightSectionInput input {
+   width: 636px;
+}
+
+.rightSectionInput {
+   padding-bottom: 20px;
+}
+
+.rightSectionInput label {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.rightSectionSelect {
+   width: 636px;
+}
+
+.leftSideSelect {
+   width: 184px;
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+   padding: 10px 18px;
+   outline: none;
+   margin-bottom: 6px;
+}
+
+.textAreaClass {
+   width: 636px;
+}
+
+.leftSideInput{
+   margin-bottom: 40px;
+}
+
+.leftSideInput input {
+   width: 184px;
+   text-align: end;
+   margin-bottom: 30px;
+}
+
+.leftSideInput label {
+   padding-top: 20px;
+}
+.leftSideDate{
+   margin-bottom: 34px;
+}
+
+.leftSideDate input {
+   width: 184px;
+   text-align: start;
+   margin-bottom: 30px;
+}
+
+.submitButton:hover {
+   background-color: #d35924;
+}
+
+.submitButton {
+   position: relative;
+   right: 40px;
+   top: 760px;
+   margin-bottom: 76px;
+   padding: 10px 24px 10px 24px;
+   background-color: #f34901;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #ffffff;
+   border: none;
+   cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+   background: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}

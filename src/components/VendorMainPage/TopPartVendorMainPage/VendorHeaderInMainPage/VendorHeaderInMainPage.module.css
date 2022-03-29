@@ -1,0 +1,12 @@
+.vendorHeaderInMainPageContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1280px;
+    align-items: center;
+}
+
+.buttonSize {
+    width: 160px;
+    height: 40px;
+}

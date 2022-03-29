@@ -1,0 +1,26 @@
+.HistoryOperationTitles {
+    display: flex;
+    border-bottom: 0.1px solid #a3a3a37a;
+}
+
+.container {
+    width: 130px;
+    margin-right: 20px;
+}
+
+.authorAndName {
+    width: 125px;
+    margin-right: 180px;
+}
+
+.dataRegistration {
+    width: 130px;
+    margin-right: 50px;
+}
+
+.cleanHistory {
+    color: #a3a3a3c5;
+    cursor: pointer;
+    width: 160px;
+    margin-right: 45px;
+}

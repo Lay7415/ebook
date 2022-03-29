@@ -1,0 +1,29 @@
+.box {
+    width: 896px;
+    z-index: 4;
+    margin: 0 auto;
+}
+.formSearch {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 18px;
+    height: 30px;
+    border: 1px solid #d6d6d6;
+    background-color: #FAFAFA;
+}
+.formSearchActive {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 18px;
+    height: 30px;
+    border: 1px solid #FE6F33;
+    background-color: #FAFAFA;
+}
+.input {
+    width: 100%;
+    outline: none;
+    border: 0.1px solid #FAFAFA;
+    background-color:#FAFAFA ;
+}

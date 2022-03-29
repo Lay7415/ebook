@@ -1,0 +1,33 @@
+.sendEmailSectionContainer {
+   padding: 150px 0px;
+}
+
+.sendEmailFieldContainer {
+   display: flex;
+   justify-content: center;
+}
+
+.sendEmailField {
+   outline: none;
+   width: 1000px;
+}
+
+.title {
+   width: 1145px;
+   margin: 0 auto;
+   text-align: start;
+   margin-bottom: 45px;
+}
+
+.links {
+   display: flex;
+   justify-content: space-between;
+   width: 700px;
+   margin: 150px auto 0 auto;
+}
+
+.link {
+   text-decoration: none;
+   color: #222222;
+   font-size: 22px;
+}

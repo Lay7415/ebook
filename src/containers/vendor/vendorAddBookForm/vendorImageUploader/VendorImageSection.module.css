@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.uploadImageSectionVednor {
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Open Sans', sans-serif;
+   width: 1282px;
+}
+
+.imageblog {
+   display: flex;
+   width: 735px;
+}
+
+.span {
+   color: #969696;
+   font-size: 14px;
+   line-height: 130%;
+   padding-left: 36px;
+   padding-right: 36px;
+   padding-bottom: 26px;
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.custom {
+   cursor: pointer;
+   width: 235px;
+   height: 312px;
+   background-image: url('../../../../assets/png/Vector.png');
+   background-repeat: no-repeat;
+   background-size: 71px;
+   background-color: #ececec;
+   display: flex;
+   align-items: flex-end;
+   background-position: center;
+}
+
+.imagesMustBe {
+   font-style: normal;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 17px;
+   line-height: 22px;
+   color: #222222;
+   margin: 0;
+   padding-bottom: 22px;
+}
+
+.mainImage {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   text-align: center;
+   color: #969696;
+   padding-top: 17px;
+   margin: 0 0 0 0;
+}
+
+.uploadthreeBooks {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 130%;
+   text-align: start;
+   color: #969696;
+}
+
+.publication {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+   padding-bottom: 20px;
+   margin: 0;
+}
+
+.rullsTextContent {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 30px 24px 40px 25px;
+}
+
+.imageUploadRulesVendor {
+   background-color: #ececec;
+   display: flex;
+   text-align: start;
+   width: 449px;
+   height: 312px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.imageBox {
+   margin: 0;
+   padding: 0;
+}
+
+.labelBlog {
+   padding-right: 20px;
+   position: relative;
+   width: 100%;
+   max-width: 400px;
+}
+
+.changeBtn {
+   position: absolute;
+   top: 66%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 130%;
+   text-align: center;
+   border: none;
+   background: none;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+.deleteBtn {
+   position: absolute;
+   top: 79%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 130%;
+   text-align: center;
+   border: none;
+   background: none;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+.deleteBtn:hover,
+.changeBtn:hover {
+   text-decoration-line: underline;
+   color: #f34901;
+}
+
+.uploadedBook {
+   width: 235px;
+   height: 312px;
+}
+
+.ulrules {
+   font-family: 'Open Sans', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   list-style: none;
+   padding-left: 18px;
+   margin: 0px;
+}
+
+.ulrules li::before {
+   content: '\2022';
+   color: #f34901;
+   font-weight: bold;
+   display: inline-block;
+   margin-left: -1em;
+   padding-right: 14px;
+}
+.lastLiFoto {
+   margin-bottom: 30px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19px;
+   color: #222222;
+}
+
+.midleLiFoto {
+   margin-bottom: 30px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19px;
+   color: #222222;
+}
+
+.liRuls {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19px;
+   color: #222222;
+   margin-bottom: 11px;
+}

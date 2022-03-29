@@ -1,0 +1,34 @@
+.bookNameText {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 130%;
+   text-align: center;
+   color: #000000;
+   margin: 0;
+   padding: 0;
+   padding-left: 69px;
+   padding-right: 69px;
+   margin-top: 23px;
+}
+.successBoxText {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   text-align: center;
+   color: #222222;
+   margin: 0;
+   padding: 0;
+}
+.successBox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.successBoxIcon {
+   width: 45px;
+   cursor: pointer;
+}

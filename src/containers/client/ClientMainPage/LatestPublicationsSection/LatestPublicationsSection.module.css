@@ -1,0 +1,40 @@
+.latestPublicationsSectionContainer {
+   padding: 150px 0px;
+}
+
+.sectionTopPart {
+   width: 1280px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.bookContent {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 45px 80px;
+}
+
+.containerTitle {
+   color: #ffffff;
+   font-weight: 400;
+}
+
+.imageContainer {
+   background-image: url('../../../../assets/icons/perpendicularLines.svg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 340px;
+   height: 520px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image {
+   width: 320px;
+   height: 480px;
+   transform: rotate(10deg);
+}

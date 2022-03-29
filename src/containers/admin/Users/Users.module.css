@@ -1,0 +1,23 @@
+.box {
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 150px;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 671px;
+    margin-top: 80px;
+}
+
+.mediumBox {
+    width: 170px;
+    text-align: start;
+    white-space: nowrap
+}
+
+.line {
+    border: 0.1px solid rgba(0, 0, 0, 0.041);
+}

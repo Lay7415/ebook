@@ -1,0 +1,53 @@
+.container{
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    background-color: #F34901;
+    z-index:10;
+}
+.containerForEbookLogo{
+    display: flex;
+    justify-content: center;
+}
+.eb{
+    margin-left: 50px;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 84px;
+}
+
+.ul li {
+    display: flex;
+    padding: 15px 55px;
+    cursor: pointer;
+}
+
+a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.ul li:hover, 
+.ul li:active,
+.ul li.active {
+    background-color: white;
+    color: #F34901;
+    transition-duration: 0.8s;
+} 
+
+
+
+.sell {
+    margin-right: 14.83px;
+}
+
+.user {
+    margin-right: 19.33px;
+}
+
+.book {
+    margin-right: 17.5px;
+}

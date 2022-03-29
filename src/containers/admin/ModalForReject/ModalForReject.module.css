@@ -1,0 +1,15 @@
+.title {
+   width: 480px;
+   margin: 0px 0px 20px 0px;
+}
+
+.textarea {
+   width: 480px;
+   height: 140px;
+}
+
+.containerForButton {
+   display: flex;
+   justify-content: end;
+   padding-top: 10px;
+}

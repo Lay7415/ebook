@@ -1,0 +1,40 @@
+.info {
+   width: 197px;
+   font-family: Open Sans, sans-serif;
+   padding-left: 5px;
+}
+.title {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+   color: #222222;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   width: 100px;
+   margin: 20px 0px 0px 0px;
+}
+.date {
+   color: #8a8a8a;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   height: 20px;
+   margin: 0px;
+}
+
+.smallInfoContainer {
+   display: flex;
+   justify-content: space-between;
+   height: 20px;
+   margin-top: 10px;
+}
+
+.price {
+   color: #ff4c00;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   height: 20px;
+   margin: 0px;
+}

@@ -1,0 +1,8 @@
+.smallContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: red;
+}

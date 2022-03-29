@@ -1,0 +1,23 @@
+.select {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.arrowDownIcon {
+    margin-left: 10px;
+}
+
+.arrowUpIcon {
+    margin-left: 10px;
+    transform: scale(1,-1);
+}
+
+.containerForOptions {
+    background-color: #FFFFFF;
+    padding: 20px;
+    position: absolute;
+    width: 130px;
+}

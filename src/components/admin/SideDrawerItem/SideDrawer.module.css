@@ -1,0 +1,13 @@
+.noActive {
+    background-color: #F34901;
+    color: white;
+}
+
+.liActive {
+    background-color: white;
+    color: #F34901;
+}
+
+.app {
+    margin-right: 15.14px;
+}

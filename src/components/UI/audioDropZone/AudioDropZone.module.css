@@ -1,0 +1,84 @@
+.uploadFrag {
+   margin-top: 7px;
+   cursor: pointer;
+}
+.uploadFrag .uploadFragText {
+   margin: 0;
+   padding-bottom: 10px;
+   text-align: start;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+}
+.uploadSvg {
+   position: absolute;
+   left: 35px;
+}
+.flexBoxed {
+   display: flex;
+   align-items: center;
+}
+.fix:hover {
+   background-color: green;
+}
+.fix {
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+   cursor: pointer;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   background-size: 15px;
+   text-align: center;
+   padding: 10px 0px 10px 40px;
+   width: 277px;
+   cursor: pointer;
+}
+
+.fix label {
+   font-family: Open Sans !important;
+   font-style: normal !important;
+   font-weight: 600 !important;
+   font-size: 14px !important;
+   line-height: 120% !important;
+   color: #969696 !important;
+   cursor: pointer;
+}
+.maximumLenght {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   text-align: center;
+   color: #a3a3a3;
+   padding-left: 14px;
+}
+.loadedSvg {
+   position: absolute;
+   left: 20px;
+}
+.fixed label {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 120%;
+   color: #f8f8f8;
+   background-color: green;
+   cursor: pointer;
+}
+.fixed {
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+   cursor: pointer;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   background-size: 15px;
+   text-align: center;
+   padding: 10px 0px 10px 40px;
+   width: 277px;
+   cursor: pointer;
+   background-color: green;
+}

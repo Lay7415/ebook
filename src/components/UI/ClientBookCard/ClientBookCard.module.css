@@ -1,0 +1,38 @@
+.styles { 
+    list-style-type: none
+}
+.card{
+    width: 224px;
+    height: 422px; 
+    background: #fafafa; 
+}
+.card img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 224px;
+    height:343px;
+}
+.info {
+    text-align: left;
+    color: #222222;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    font-style: normal;
+    width: 149px;
+    height:67px;
+    
+}
+.title{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 4%;
+}
+
+.author {
+    font-weight: normal;
+}
+
+.price {
+    font-weight: 600;
+}

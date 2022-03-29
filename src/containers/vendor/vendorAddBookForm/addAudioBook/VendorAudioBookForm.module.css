@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.rightSection {
+   font-weight: 400;
+}
+.formControl {
+   display: flex;
+}
+
+.leftSection {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* --------------------------------------------- */
+.settingOfBook {
+   padding-left: 42px;
+}
+
+.settingOfBook input {
+   margin-bottom: 30px;
+}
+
+.rightSectionControl {
+   padding-left: 39px;
+}
+
+.uploadImageBox {
+   padding: 0;
+   position: relative;
+   top: 0;
+   right: 225px;
+}
+
+.rightSection {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   padding-bottom: 30px;
+   height: 1160px;
+}
+
+.rightSectionInputVendor input {
+   width: 753px;
+}
+
+.rightSectionTextArea {
+   width: 753px;
+   resize: none;
+}
+
+.rightSectionInputVendor {
+   padding-bottom: 20px;
+}
+
+.rightSectionInputVendor label {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.rightSectionSelectVendor {
+   width: 753px;
+}
+
+.leftSideSelect {
+   width: 184px;
+}
+
+.leftSideInput input {
+   width: 184px;
+   text-align: end;
+   margin-bottom: 30px;
+}
+
+.leftSideInput {
+   margin-bottom: 8px;
+   padding-right: 39px;
+}
+
+.leftSideDate {
+   margin-left: 39px;
+}
+
+.leftSideDate input {
+   width: 184px;
+   text-align: start;
+   margin-bottom: 30px;
+}
+
+.rightSectionControl .leftSideDate {
+   margin-bottom: 70px;
+}
+
+.submitButtonVendor {
+   position: relative;
+   left: 280px;
+   top: 350px;
+   padding: 10px 24px 10px 24px;
+   background-color: #f34901;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #ffffff;
+   border: none;
+   cursor: pointer;
+}
+.submitButtonVendor:hover {
+   background-color: #d35924;
+}
+
+.languages {
+   display: flex;
+   flex-direction: row;
+}
+
+.leftSideInputTimeFirst {
+   width: 118px;
+   height: 41px;
+}
+
+.leftSideInputTimeFirst input {
+   text-align: end;
+}
+.leftSideInputTime input {
+   text-align: end;
+}
+
+.leftSideInputTime {
+   width: 118px;
+   height: 41px;
+   padding-left: 29px;
+}
+.timecontrol {
+   display: flex;
+   flex-direction: row;
+}
+.priceControl {
+   display: flex;
+   flex-direction: row;
+}
+
+.leftSideInputTime label {
+   opacity: 0;
+}
+
+.textAreaClassesVendor {
+   width: 753px;
+}
+
+.languagesBox {
+   display: flex;
+}
+.timeDuration {
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+.timeDurationInput input {
+   width: 118px;
+   margin-right: 20px;
+   text-align: end;
+}
+.timeDurationInputSec input {
+   width: 124px;
+   margin-right: 20px;
+   text-align: end;
+}
+.timeDurationInputSec {
+   margin-top: 21px;
+}
+.priceSelection {
+   display: flex;
+   margin-bottom: 20px;
+}
+.bestSellerBox {
+   margin-top: 20px;
+}
+
+.dropzoneBoxVendor {
+   margin-top: -41px;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 177px;
+}

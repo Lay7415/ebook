@@ -1,0 +1,28 @@
+.profileContainer {
+    width: 1130px;
+    height: 420px;
+    padding:60px 20px;
+    margin: auto;
+}
+
+.informationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.deleteContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.smallBox {
+    width: 400px;
+    height: 100px;
+}
+
+.title {
+    color: #898989;
+}

@@ -1,0 +1,27 @@
+.meddiumContainer {
+    display: flex;
+    margin-bottom: 120px;
+}
+.containerForInformation {
+    margin-left: 100px;
+    width: 505px;
+    height: 430px;
+}
+
+.title {
+    margin-top: 65px;
+}
+
+.firstImage {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 351px;
+    height: 571px;
+}
+.secondImage {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 201px;
+    height: 321px;
+    margin-left: 20px;
+}

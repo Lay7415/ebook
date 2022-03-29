@@ -1,0 +1,30 @@
+.contentConatiner {
+   width: 440px;
+   height: 135px;
+}
+
+.acceptIconBox {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.acceptIcon {
+   width: 50px;
+   height: 50px;
+   margin: auto;
+}
+
+.bookName {
+   display: flex;
+   justify-content: center;
+   font-weight: 600;
+   font-size: 18px;
+   margin: 0;
+}
+
+.acceptMessage {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}

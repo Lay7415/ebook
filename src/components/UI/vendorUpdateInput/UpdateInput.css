@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.input input {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 10px 18px;
+   box-sizing: border-box;
+   border: 1px solid #c4c4c4;
+   background: #fafafa;
+   outline: none;
+   font-family: Open Sans, sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+   margin-top: 10px;
+   margin-bottom: 18px;
+}
+input.hasError {
+   border-color: red;
+}
+
+.input label {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #969696;
+}
+
+.input input::placeholder {
+   color: #969696;
+}
+.input input:hover {
+   background: #ffffff;
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+}
+
+.input input:active {
+   background: #ffffff;
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+}
+input[type='radio'] {
+   width: 20px;
+   height: 20px;
+   border: 1px solid #f34901;
+   border-radius: 50%;
+   background-clip: content-box;
+   padding: 3px;
+   accent-color: #f34901;
+   box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type='time']::-webkit-calendar-picker-indicator {
+   background: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}

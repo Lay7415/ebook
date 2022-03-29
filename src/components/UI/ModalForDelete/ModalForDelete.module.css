@@ -1,0 +1,17 @@
+.containerForContent {
+    width: 460px;
+    text-align: center;
+    font-size: 18px;
+}
+.name {
+    font-weight: 600;
+}
+.selectButton {
+    padding: 10px 24px;
+    margin-right: 32px;
+}
+.containerForButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}

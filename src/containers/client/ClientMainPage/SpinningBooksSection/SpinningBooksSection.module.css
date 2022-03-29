@@ -1,0 +1,43 @@
+.spinningBooksSectionContainer {
+   width: 1440px;
+   height: 720px;
+   display: flex;
+   justify-content: center;
+   background-image: url('../../../../assets//icons/curvedline.svg');
+   background-repeat: no-repeat;
+}
+
+.spinningBooksSectionContent {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1000px;
+}
+
+.orangeArrowLeft {
+   width: 60px;
+   height: 80px;
+   cursor: pointer;
+}
+
+.orangeArrowLeftDisabled {
+   pointer-events: none;
+   width: 60px;
+   height: 80px;
+   cursor: pointer;
+}
+
+.orangeArrowRight {
+   width: 60px;
+   height: 80px;
+   transform: scale(-1, 1);
+   cursor: pointer;
+}
+
+.orangeArrowRightDisabled {
+   pointer-events: none;
+   width: 60px;
+   height: 80px;
+   transform: scale(-1, 1);
+   cursor: pointer;
+}

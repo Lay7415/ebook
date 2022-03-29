@@ -1,0 +1,22 @@
+
+.lang {
+    justify-content: space-between;
+    margin-top: 43px;
+    color: #222222;
+    padding-bottom: 10px;
+ }
+
+ .lan {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4;
+ }
+ 
+ .lanCheck {
+    margin-top: 16px;
+ }
+ 
+ .check {
+    margin-bottom: 16px;
+ }

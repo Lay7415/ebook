@@ -1,0 +1,6 @@
+.containerForSwitch {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}

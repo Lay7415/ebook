@@ -1,0 +1,13 @@
+.borderDeleteIcon {
+    border: 1px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.borderDeleteIcon:hover {
+    background-color: #ff4d0023;
+}

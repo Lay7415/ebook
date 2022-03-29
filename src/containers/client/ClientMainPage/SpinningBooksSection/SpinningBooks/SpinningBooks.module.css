@@ -1,0 +1,65 @@
+.spinningBooks {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.firstImage {
+   cursor: pointer;
+   width: 140px;
+   height: 220px;
+   opacity: 0.6;
+   background-color: #000;
+   margin-bottom: 50px;
+   margin-right: 150px;
+}
+
+.secondImage {
+   cursor: pointer;
+   width: 300px;
+   height: 468px;
+}
+
+.secondImageContainer {
+   width: 300px;
+   height: 530px;
+   position: absolute;
+   z-index: 1;
+}
+
+.thirdImage {
+   cursor: pointer;
+   width: 140px;
+   height: 220px;
+   opacity: 0.6;
+   background-color: #000;
+   margin-bottom: 50px;
+   margin-left: 150px;
+}
+
+.aboutBook {
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.bookName {
+   width: 140px;
+   height: 25px;
+   font-size: 16px;
+   color: #d6d6d6;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   margin: 0;
+}
+
+.bookAuthor {
+   color: #8c8c8c;
+   margin: 0;
+}
+
+.bookPrice {
+   color: #ff4c00;
+   margin: 0;
+}

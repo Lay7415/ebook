@@ -1,0 +1,29 @@
+.containerForVendorBookContent {
+   width: 1134px;
+   margin-left: 20px;
+   padding-bottom: 200px;
+}
+
+.containerForTopPartInVendorBooks {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.numberOfBooks {
+   color: #969696;
+}
+
+.lineInVendorBooks {
+   border: 0.1px solid #c4c4c4;
+}
+
+.containerForDelleteButton {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.containerForbookContnet {
+   display: flex;
+   flex-wrap: wrap;
+}

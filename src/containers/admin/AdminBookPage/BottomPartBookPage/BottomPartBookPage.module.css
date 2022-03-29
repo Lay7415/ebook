@@ -1,0 +1,17 @@
+.containerForInformationAboutBook {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 900px;
+    padding-top: 50px;
+}
+.containerForAboutBookAndFragment {
+    width: 620px;
+    height: 100%;
+}
+.thirdImage {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 385px;
+    height: 614px;
+}

@@ -1,0 +1,66 @@
+.info {
+   font-family: Open Sans, sans-serif;
+   display: flex;
+   flex-direction: column;
+   padding-left: 5px;
+}
+.title {
+   display: flex;
+   margin-top: 20px;
+   margin-bottom: 8px;
+   font-family: Open Sans;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: #222222;
+}
+
+.bookAuthor {
+   margin: 0;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 19px;
+   color: #969696;
+}
+
+.discount {
+   margin-right: 16px;
+   color: #f10000;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+}
+
+.price {
+   display: flex;
+   align-items: center;
+   margin-top: 8px;
+}
+
+.pastPrice {
+   display: flex;
+   margin-top: 10px;
+   margin-right: 16px;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   text-decoration-line: line-through;
+   color: #a3a3a3;
+}
+
+.bookPrice {
+   margin: 0;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #222222;
+}

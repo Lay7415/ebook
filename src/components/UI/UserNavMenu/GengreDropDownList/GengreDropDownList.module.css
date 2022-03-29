@@ -1,0 +1,50 @@
+.gengreDropDownListContainer {
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    height: 445px;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 40px;
+    margin: 41px auto 0px auto;
+    position: absolute;
+    box-shadow: inset 0px 0px 10px 0px #e7e7e7;
+    z-index: 2;
+    background-color: #FAFAFA;
+}
+.gengreDropDownListContainer::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+.gengreDropDownListContainer::-webkit-scrollbar-track {
+    background-color: #f9f9fd;
+  }
+  
+.gengreDropDownListContainer::-webkit-scrollbar-thumb {
+    background-color: #FF4C00;
+    cursor: pointer;
+  }
+
+.genreBox {
+    width: 328px;
+    height: 45px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 120px;
+}
+.genreBox:hover {
+    border-bottom: 1.8px solid #FF4C00;
+    color: #FF4C00;
+    font-weight: 600;
+}
+
+.genreName {
+    font-size: 16px;
+}
+
+.numberOfBooks {
+    font-weight: 400;
+    font-size: 16px;
+}

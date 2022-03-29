@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.sideLabel {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   padding-bottom: 30px;
+}
+.customTextareaBox {
+   width: 636px;
+   resize: none;
+}
+
+.containerOfSideBox {
+   display: flex;
+   padding-left: 42px;
+}
+
+.leftSideBox {
+   padding-right: 42px;
+}
+
+.rightSection {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   padding-bottom: 30px;
+   height: 1160px;
+}
+
+.rightSectionInput input {
+   width: 636px;
+}
+
+.rightSectionInput {
+   padding-bottom: 20px;
+}
+
+.rightSectionInput label {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.rightSectionSelect {
+   width: 636px;
+}
+
+.leftSideSelect {
+   width: 184px;
+   margin-bottom: 9px;
+}
+.leftSideInput {
+   margin-bottom: 36px;
+}
+.leftSideInput input {
+   width: 184px;
+   text-align: end;
+   margin-bottom: 30px;
+}
+
+.leftSideDate input {
+   width: 184px;
+   text-align: start;
+   margin-bottom: 30px;
+}
+
+.leftSideDate {
+   margin-bottom: 70px;
+}
+
+.bestseller {
+   margin-bottom: 41px;
+}
+
+.fix {
+   border: 1px solid #c4c4c4;
+   box-sizing: border-box;
+   cursor: pointer;
+   background-repeat: no-repeat;
+   cursor: pointer;
+   background-size: 15px;
+   text-align: center;
+   padding: 10px 0px 10px 40px;
+   width: 212px;
+   cursor: pointer;
+}
+
+.fix label {
+   font-family: Open Sans !important;
+   font-style: normal !important;
+   font-weight: 600 !important;
+   font-size: 14px !important;
+   line-height: 120% !important;
+   color: #969696 !important;
+   cursor: pointer;
+}
+
+.uploadFragAdmin {
+   position: absolute;
+   margin-top: -12px;
+}
+.fix:hover {
+   background-color: green;
+}
+
+.uploadFrag .uploadFragText {
+   margin: 0;
+   padding-bottom: 10px;
+   text-align: start;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 130%;
+   color: #222222;
+}
+
+.uploadSvg {
+   position: relative;
+   bottom: 30px;
+   left: 45px;
+}
+.submitButton:hover {
+   background-color: #d35924;
+}
+
+.submitButton {
+   position: relative;
+   left: 20px;
+   top: 800px;
+   padding: 10px 24px 10px 24px;
+   background-color: #f34901;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #ffffff;
+   border: none;
+   cursor: pointer;
+}
+.textAreaClass {
+   width: 636px;
+}
+.customCheckBoxAdmin{
+   margin-top: 75px;
+   margin-bottom: 52px;
+}
